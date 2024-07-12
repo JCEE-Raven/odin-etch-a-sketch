@@ -12,6 +12,19 @@ body {
     flex-direction: column;
 }
 
+button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: #3882f6;
+    padding: 8px;
+    width: 100px;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
 .headerContainer,
 .footerContainer {
     background-color: darkslategray;

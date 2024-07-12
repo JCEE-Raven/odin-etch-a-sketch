@@ -2,6 +2,7 @@
 
 //variables
 const etchBoardContainer = document.querySelector('.etchBoardContainer');
+const clearGridBTN = document.querySelector('.clearGrid');
 
 //create initial grid
 const initialGridSize = 16;
@@ -27,3 +28,10 @@ function buildGrid(halfGridSize){
     }
 }
 
+clearGridBTN.addEventListener('click', () => {
+
+    const gridToClear = document.querySelectorAll('.etchGridPiece');
+    for(let i = 0; i < gridToClear.length; i++) {
+        gridToClear[i].style.backgroundColor = 'white';
+    }
+})
