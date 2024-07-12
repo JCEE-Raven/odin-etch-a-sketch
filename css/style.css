@@ -41,10 +41,6 @@ body {
 
 .etchGridPiece {
     border: 1px solid darkgray;
-    /* for debugging */
-    height: 16px;
-    width: 16px;
-    /* ------------- */
 }
 
 .etchGridPiece.blank {
