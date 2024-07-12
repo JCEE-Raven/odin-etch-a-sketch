@@ -30,3 +30,27 @@ body {
     gap: 16px;
     flex: 1;
 }
+
+.etchBoardContainer {
+    border: 1px solid black;
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.etchGridPiece {
+    border: 1px solid darkgray;
+    /* for debugging */
+    height: 16px;
+    width: 16px;
+    /* ------------- */
+}
+
+.etchGridPiece.blank {
+    background-color: white;
+}
+
+.etchGridPiece.coloured {
+    background-color: black;
+}
