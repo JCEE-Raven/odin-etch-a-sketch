@@ -45,13 +45,16 @@ body {
     background-color: white;
 }
 
+/* don't think this is need now
 .etchGridPiece.coloured {
     background-color: black;
-}
+} */
 
 .etchGridPiece {
     border: 1px solid darkgray;
 }
+
+/* think this is not needed
 .etchGridPiece:hover {
     background-color: darkgrey;
-}
+} */

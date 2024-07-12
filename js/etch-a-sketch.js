@@ -9,7 +9,9 @@ console.log("Initial size is " + initialGridSize * initialGridSize)
 buildGrid(initialGridSize);
 
 function buildGrid(halfGridSize){
+    //calculate grid size
     let gridSize = halfGridSize * halfGridSize;
+    //build grid
     for(let i = 0; i < gridSize; i++){
         console.log('loop : ' + i);
         const etchGridPiece = document.createElement('div');
@@ -17,7 +19,11 @@ function buildGrid(halfGridSize){
         etchGridPiece.style.minHeight = "calc(100% / " + halfGridSize  + ")";
         etchGridPiece.style.minWidth = "calc(100% / " + halfGridSize  + ")";
         etchBoardContainer.appendChild(etchGridPiece);
+    
+        //add listeners
+        etchGridPiece.addEventListener('mouseover', () => {
+            etchGridPiece.style.backgroundColor = "black";
+        })
     }
-
 }
 
