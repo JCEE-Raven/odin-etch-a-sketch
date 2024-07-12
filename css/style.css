@@ -37,10 +37,8 @@ body {
     width: 60vh;
     display: flex;
     flex-wrap: wrap;
-}
 
-.etchGridPiece {
-    border: 1px solid darkgray;
+    cursor: pointer;
 }
 
 .etchGridPiece.blank {
@@ -49,4 +47,11 @@ body {
 
 .etchGridPiece.coloured {
     background-color: black;
+}
+
+.etchGridPiece {
+    border: 1px solid darkgray;
+}
+.etchGridPiece:hover {
+    background-color: darkgrey;
 }
