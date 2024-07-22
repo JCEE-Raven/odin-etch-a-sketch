@@ -1,4 +1,5 @@
 // Etch a sketch game built for odin foundation course
+//Jaycee Raven 2024
 
 //variables
 const etchBoardContainer = document.querySelector('.etchBoardContainer');
